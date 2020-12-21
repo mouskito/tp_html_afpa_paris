@@ -1,8 +1,32 @@
 header{
 	background:purple;
+	color:white;
 }
 
 footer{
 	background:blue;
 	color : white;
+}
+
+#div1{
+	background:yellow;
+	color:white;
+	padding-bottom:16px;
+}
+
+#div2{
+	background:purple;
+	border: solid 16px;
+	border-color:green;
+	color:white;
+	padding-bottom:128px;
+}
+
+header,#div1, #div2, footer {
+	margin-left:32px;
+	margin-right:128px;
+}
+
+header, footer {
+	padding-bottom:32px;
 }
