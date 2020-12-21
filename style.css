@@ -19,6 +19,7 @@ footer {
 #section_inner {
   background: #8c48ab;
   color: white;
+  height: 90%;
 }
 
 body{
@@ -30,4 +31,5 @@ body{
 section {
   background-color:#589c77;
   padding: 15px;
+  height: 400px;
 }
