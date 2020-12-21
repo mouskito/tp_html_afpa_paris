@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-color: #1b1c1d;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.com/svgjs' width='100%' height='100%' preserveAspectRatio='none' viewBox='0 0 1920 1080'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1198%26quot%3b)' fill='none'%3e%3cpath d='M25 1080L1105 0L1253.5 0L173.5 1080z' fill='url(%23SvgjsLinearGradient1199)'%3e%3c/path%3e%3cpath d='M662.6 1080L1742.6 0L2332.1 0L1252.1 1080z' fill='url(%23SvgjsLinearGradient1199)'%3e%3c/path%3e%3cpath d='M1915 1080L835 0L533.5 0L1613.5 1080z' fill='url(%23SvgjsLinearGradient1200)'%3e%3c/path%3e%3cpath d='M1181.4 1080L101.40000000000009 0L-68.09999999999991 0L1011.9000000000001 1080z' fill='url(%23SvgjsLinearGradient1200)'%3e%3c/path%3e%3cpath d='M1338.723452752929 1080L1920 498.7234527529289L1920 1080z' fill='url(%23SvgjsLinearGradient1199)'%3e%3c/path%3e%3cpath d='M0 1080L581.2765472470711 1080L 0 498.7234527529289z' fill='url(%23SvgjsLinearGradient1200)'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1198'%3e%3crect width='1920' height='1080' fill='white'%3e%3c/rect%3e%3c/mask%3e%3clinearGradient x1='0%25' y1='100%25' x2='100%25' y2='0%25' id='SvgjsLinearGradient1199'%3e%3cstop stop-color='rgba(48%2c 207%2c 208%2c 0.53)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(48%2c 207%2c 208%2c 0.53)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3clinearGradient x1='100%25' y1='100%25' x2='0%25' y2='0%25' id='SvgjsLinearGradient1200'%3e%3cstop stop-color='rgba(48%2c 207%2c 208%2c 0.53)' offset='0'%3e%3c/stop%3e%3cstop stop-opacity='0' stop-color='rgba(48%2c 207%2c 208%2c 0.53)' offset='0.66'%3e%3c/stop%3e%3c/linearGradient%3e%3c/defs%3e%3c/svg%3e");
+}
+
+.gradient-text {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    background: linear-gradient(to right, #30CFD0 0%, #bce6eb 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.btn-default {
+    display: flex;
+    place-content: center;
+    border-radius: 4px;
+    width: 9rem;
+    background: #2f3136;
+    padding: 8px 20px 8px 12px;
+    margin: 1rem 0;
+    font-family: 'Lato', sans-serif;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.btn-default:hover {
+    color: #30CFD0;
+}
+
+.navbar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    list-style: none;
+    color: #ffffff;
+}
+
+.item {
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 0 1rem;
+    cursor: pointer;
+    transition: all .5s ease-in-out;
+}
+
+.item:hover {
+    color: #30CFD0;
+}
+
+.content-article {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: #ffffff;
+    background-color: #26282b;
+}
+
+.picture {
+    padding: 1rem;
+}
+
+img {
+    border-radius: 4px;
+}
+
+.text {
+    padding: 1rem;
+}
+
+.content-contact {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.contact-me {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: -1.5rem;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    background-color: #30CFD0;
+}
+
+.banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    font-family: 'lato', sans-serif;
+    font-weight: bold;
+    font-size: small;
+    color: #30CFD0;
+    background-color: #1b1c1d;
+}
