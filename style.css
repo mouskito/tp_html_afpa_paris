@@ -1,5 +1,5 @@
 header{
-	background:purple;
+	background:#B42BD0;
 	color:white;
 }
 
@@ -15,9 +15,9 @@ footer{
 }
 
 #div2{
-	background:purple;
+	background:#B42BD0;
 	border: solid 16px;
-	border-color:green;
+	border-color:#2894A5;
 	color:white;
 	padding-bottom:128px;
 }
