@@ -1,0 +1,39 @@
+body{
+	background: black;
+	color: white;
+	margin: 10px;
+}
+
+header{text-align: center;}	
+
+#idunique{color: yellow;}
+.classunique{color: red;}
+
+#metroid{
+	width: 160px;
+	height: 90px;
+}
+
+#gras{font-weight: bold;}
+#italique{font-style: italic;}
+#barré{text-decoration: line-through; }
+#petit{font-size: smaller;}
+#indice{font-variant-position: sub; font-size: smaller; position: sticky;}
+#exposant{font-variant-position: super; font-size: smaller;}
+#citation{quotes: "";}
+
+meter{width: : 1000px;}
+
+#modifcss{
+	font-style: italic;
+	font-size: 20px;
+	font-family: arial;
+	border: solid; 2px;/*aussi dashed double groove ridge inset outset hidden/* 1px = standard */
+	border-radius: 50px; /*permet de changer la courbure des angles*/
+	border-color: red;
+	padding: 20px;  /* marge à l'interieur du block des 4 cote par defaut*/
+	margin: 10px;	/*marge à l'exterieur du block */
+	padding: 1 2 3 4; /* pour changer plusieurs fois la même valeur (bords dans un ordre précis) */
+}
+
+#modifcss,data,.classunique, #textrandom{background: green;} /*pour appliquer à plusieurs, mettre des virgule entre*/
