@@ -15,11 +15,15 @@ nav {
   height: 30px;
 }
 
-#section_inner {
+#paragraph {
   background: #8c48ab;
   color: white;
   height: 500px;
   border: 20px solid #589c77;
+}
+
+p {
+  margin: 0;
 }
 
 footer {
