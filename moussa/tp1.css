@@ -1,0 +1,27 @@
+
+.conteneur{
+	color: white;
+	background: #2C9288;
+}
+header {
+	background: #9564CC;
+	min-height: 80px;
+}
+/* commentaire en css */
+nav {
+	background: yellow;
+	padding-bottom: 50px;
+	/*min-height: 50px;*/
+}
+
+section{
+	margin: 20px;
+	background: #9564CC;
+	min-height: 500px;
+	padding: 5px;
+}
+
+footer{
+	background: blue;
+	min-height: 50px;
+}
