@@ -1,0 +1,32 @@
+body{
+	color: white;
+	margin: 0px 5% 0px 5%;
+}
+
+header,footer,#premier,#second{
+	margin: 0px 0px 0px 0px;
+}
+header{
+	background: #b434eb;
+}
+footer{
+	background: #02275c;
+}
+
+.pb-1{
+	padding-bottom: 10px;
+}
+.pb-5{
+	padding-bottom: 50px;
+}
+.pb-30{
+	padding-bottom: 300px;
+}
+
+#premier{
+	background: yellow;
+}
+#second{
+	background: #b434eb;
+	border: solid #2777e8 20px;
+}
