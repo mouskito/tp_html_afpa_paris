@@ -4,13 +4,13 @@ body{
 }
 
 header {
-  background: #d661c6;
+  background: #aa488e;
   color: white;
   height: 75px;
 }
 
 nav {
-  background: #ecf5a6;
+  background: #fff472;
   color: black;
   height: 30px;
 }
@@ -19,7 +19,7 @@ nav {
   background: #8c48ab;
   color: white;
   height: 500px;
-  border: 20px solid #589c77;
+  border: 20px solid #009c91;
 }
 
 p {
@@ -27,7 +27,7 @@ p {
 }
 
 footer {
-  background: #426dbd;
+  background: #004872;
   color: white;
   height: 75px;
 }
