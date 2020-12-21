@@ -1,0 +1,26 @@
+body{
+    margin: 0px;
+    color: white;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+header{
+    background-color: purple;
+    height: 100px;
+    margin: 0px;
+}
+footer {
+    background-color: darkblue;
+    height: 50px;
+    margin: 0px;
+}
+#texte{
+    background-color: purple;
+    border: 15px solid cyan;
+    height: 300px;
+    margin: 0px;
+}
+#navigation {
+    background-color: yellow;
+    margin: 0px;
+}
