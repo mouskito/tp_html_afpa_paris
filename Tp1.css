@@ -1,0 +1,25 @@
+header{
+	background: red; /*Couleur à changer*/
+	min-height: 80px;
+}
+
+nav {
+	background: yellow;
+}
+
+section {
+	margin: 20px;
+	background: red;
+	min-height: 300px;
+}
+
+footer {
+	background: blue;
+}
+
+.conteneur {
+	width: 800px;
+	margin: 0 auto;
+	background: green;
+	color: white;
+}
