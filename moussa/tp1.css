@@ -1,27 +1,26 @@
-
-.conteneur{
-	color: white;
-	background: #2C9288;
-}
-header {
-	background: #9564CC;
-	min-height: 80px;
-}
-/* commentaire en css */
-nav {
-	background: yellow;
-	padding-bottom: 50px;
-	/*min-height: 50px;*/
+.block p, .block div, .block h1{
+	display: inline;
+	background-color: red;
 }
 
-section{
-	margin: 20px;
-	background: #9564CC;
-	min-height: 500px;
-	padding: 5px;
+.inline a {
+	display: block;
+	background: green;
 }
 
-footer{
-	background: blue;
-	min-height: 50px;
+
+.inline-block span,.inline-block em,
+.inline-block a{
+	display: inline-block;
+	background-color: red;
+	width: 100px;
+	height: 150px;
+}
+
+.paragh{
+	display: table;
+}
+.paragh span {
+	display: table-cell;
+	vertical-align: middle;
 }
