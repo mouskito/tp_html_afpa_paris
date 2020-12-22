@@ -11,9 +11,40 @@ nav ul li{
 
 nav ul li a{
 	text-decoration: none;
-	color: white
+	color: white;
 }
 
 nav ul li:hover{
 	background: #AE509A;
+}
+
+/* Les floats */
+
+.contenuer{
+	background: #53E7E8;
+	width: 60%;
+	margin: auto;
+}
+
+.images{
+	border-bottom: 1px solid;
+    min-height: 170px;
+}
+
+.contenuer p {
+	padding: 15px;
+}
+
+.contenuer img{
+	float: left;
+	border-radius: 20px;
+	margin:10px;
+}
+
+.clearfix{
+	clear: both;
+}
+
+.moussa {
+	float: right !important;
 }
