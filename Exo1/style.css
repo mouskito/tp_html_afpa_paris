@@ -1,0 +1,39 @@
+body{
+  width: 70%;
+  margin: 0 auto;
+}
+
+header {
+  background: #aa488e;
+  color: white;
+  height: 75px;
+}
+
+nav {
+  background: #fff472;
+  color: black;
+  height: 30px;
+}
+
+#paragraph {
+  background: #8f3571;
+  color: white;
+  height: 500px;
+  border: 20px solid #009d93;
+}
+
+p {
+  margin: 0;
+}
+
+footer {
+  background: #004872;
+  color: white;
+  height: 75px;
+}
+
+/*section {
+  background-color:#589c77;
+  padding: 15px;
+  height: 400px;
+}*/
