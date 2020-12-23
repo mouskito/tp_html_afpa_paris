@@ -8,12 +8,6 @@ header {
   font-size: 20px;
 }
 
-center {
-  position: relative;
-  top: 0;
-  left: 0;
-  right: 0;
-}
 nav {
   border: 5px solid #98c3b9;
   border-radius: 5px;
@@ -44,9 +38,6 @@ nav ul li:hover {
   background-color:  #d7e1df;
 }
 
-p {
-  margin: 1em 1em 1em 1em;
-}
 .parent {
   margin: 1em auto;
   width: 60em;
@@ -57,6 +48,13 @@ p {
   display: inline-block;
   border: 1px solid black;
   border-radius: 5px;
+}
+
+p {
+  margin: 1em 1em 1em 1em;
+  font-size: 16px;
+  line-height: 23px;
+  text-align: justify;
 }
 
 img {
