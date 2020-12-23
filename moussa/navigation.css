@@ -1,6 +1,22 @@
 nav{
 	background-color: #DF2EBB;
+
+	/*position: static;*/
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	z-index: 1;
 }
+
+/* position static */
+/* position fixed */
+/* position relative --- top, left, right , bottom*/
+/* position absolue s'adapte en fonction de la position relative */
+/* position sticky: un mélange entre la position fixed et relative */
+
 
 nav ul li{
 	display: inline-block;
