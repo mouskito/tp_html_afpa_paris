@@ -8,10 +8,9 @@ nav{
 	top:0;
 	left: 0;
 	right: 0;
-
+	height: 150px;
 }
 
-.page{}
 .case_menu{
 	/*display: table-cell;*/
 	vertical-align: middle;
@@ -31,6 +30,7 @@ nav{
 
 .page {
 	background: #00FF97;
+	margin-top: 132px;
 }
 
 article{
