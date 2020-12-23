@@ -1,0 +1,121 @@
+.menu div{
+	display: inline-block;
+	padding: 20px;
+
+}
+
+.menu .sousmenu:hover{
+	background: grey;
+	color: white;
+	border-collapse: collapse;
+	border-radius: 10px/20px;
+	border-collapse: solid;
+	padding: 18px;
+
+	
+}
+nav{
+    border-collapse: collapse;
+	border-radius: 10px/20px;
+	background: black;
+	position: fixed;
+	top: 0;
+	right: 0;
+	left: 0;
+	z-index: 1;
+}
+
+a{
+	text-decoration: none;color: white;
+	text-align: center;
+}
+
+article{
+	background: #2FDEC6;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.test p{
+	
+	width: 80%;
+	float: left;
+	padding: 12px;
+} 
+
+.test .image1{
+	float: right;
+}
+
+.clearfix{
+	clear: both;
+}
+.test2 p{
+	
+	width: 80%;
+	float: right;
+	padding: 12px;
+} 
+
+.test .image2{
+	float: left;
+}
+
+.test3 p{
+	
+	width: 80%;
+	float: left;
+	padding: 12px;
+} 
+
+.test3 .pepsi{
+	float: right;
+}
+
+.test4 p{
+	
+	width: 80%;
+	float: right;
+	padding: 12px;
+} 
+
+.test .cobra{
+	float: left;
+	}
+
+.position-relative{
+	position: relative;
+	top: 40px;
+	right: 0;
+	bottom: 0;
+	background: red;
+	margin: 20px;
+}
+
+.position-absolue{
+	position: absolute;
+	top: 40px;
+	right: 28px;
+
+color: white;
+background: blue;
+}
+
+footer{
+	color: white;
+	background: red;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	padding: 10px;
+}
+
+.reseaux{
+	width: 50px;
+	height: 50px;
+  border: none;
+  border-radius : 50px;
+  border-radius : 50px;
+  
+}
