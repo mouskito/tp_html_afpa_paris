@@ -1,31 +1,77 @@
 body{
-	color: white;
-	margin: 0px 5% 0px 5%;
+	margin: 0px;
+	font-family: arial;
 }
-
-header,footer,#premier,#second{
-	margin: 0px 0px 0px 0px;
-}
-header{
-	background: #b434eb;
-}
-footer{
-	background: #02275c;
-}
-
-.pb-1{
-	padding-bottom: 10px;
-}
-.pb-5{
-	padding-bottom: 50px;
-}
-.pb-30{
-	padding-bottom: 300px;
+.filling{
+    margin: 70px;
 }
 nav{
-	background: yellow;
+	position: fixed;
+	
+	top: -16px;
+	left: 0;
+	right: 0;
 }
-#second{
-	background: #b434eb;
-	border: solid #2777e8 20px;
+.menu {
+	background: red;
+	border-radius: 5px;
 }
+.menu li a{
+	text-decoration: none;
+	color:white;
+}
+.menu li{
+	display: inline-block;
+	border-radius: 5px;
+	padding: 20px;
+	transition: 0.5s;
+	width: 15%;
+	text-align: center;
+}
+.menu li:hover{
+	background: #79259e;
+	font-size: 20px;
+	padding: 0px;
+}
+.text-box img{
+	border: solid black 1px;
+	border-radius: 20px;
+}
+
+.main{
+	background: #17a5a9;
+	width: 60%;
+	margin: auto;
+	padding: 5px;
+}
+.text-box{
+	border-bottom: solid black 2px;
+	padding: 5px;
+}
+.right-pic{
+	float: right;
+}
+
+.left-pic{
+	float: left;
+}
+
+.clearfix{
+  clear: both;
+}
+footer{
+	background: red;
+	color: white;
+}
+footer img{
+	border-radius: 100%;
+	margin: 10px;
+	transition: 1s;
+}
+footer img:hover{
+	border-radius: 100%;
+	width: 65px;
+	height: 65px;
+	margin: 10px -15px;
+}
+
