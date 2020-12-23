@@ -1,0 +1,31 @@
+header{
+	background: red;
+		}
+
+nav{
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+}
+
+nav ul li:hover{
+	background: blue;		
+	}
+
+nav ul li{
+	text-align: center;
+	display: inline-block;
+	width: 10em;
+	}
+img{
+	width: 200px
+	}
+
+position-relative{
+	position: relative;
+}
+
+position-absolue{
+	position: absolute;
+}
