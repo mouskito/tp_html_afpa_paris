@@ -12,14 +12,12 @@ nav {
   border: 5px solid #98c3b9;
   border-radius: 5px;
   background-color: #98c3b9;
-  margin: 0 auto;
-  display: table;
-
   position: fixed;
   top: 0;
   right: 0;
   left: 0;
   z-index: 0;
+  text-align: center;
 }
 
 nav ul li {
@@ -80,7 +78,7 @@ footer {
   text-align: center;
 }
 
-.footer-text1 {
+.footer-text {
   clear: both;
   margin: 0 auto;
   margin-bottom: 1em;
