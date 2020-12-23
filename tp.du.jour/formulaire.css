@@ -1,0 +1,25 @@
+.formu label{
+	display:block;
+	padding-top: 20px;
+}
+
+.menu .sousmenu:hover{
+	background: grey;
+	color: white;
+	border-collapse: collapse;
+	border-radius: 10px/20px;
+	border-collapse: solid;
+	padding: 18px;
+}
+
+a{
+	text-decoration: none;color: white;
+	text-align: center;
+}
+
+form{
+	background: grey;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+
