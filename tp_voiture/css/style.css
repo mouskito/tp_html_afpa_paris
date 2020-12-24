@@ -82,3 +82,9 @@ textarea{
 	width: 80%;
 	margin: 0 auto;
 }
+footer{
+	background: yellow;
+}
+footer img{
+	border-radius: 100%;
+}
