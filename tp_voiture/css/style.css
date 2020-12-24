@@ -51,9 +51,33 @@ input{
 textarea{
 	border-radius: 5px;
 }
+.ligne ul{
+	text-align: center;
+	background: orange;
+	padding: 0;
+}
 .ligne ul li{
 	display: inline-block;
+	background: green;
+	width: 32%;
+	border: solid black 1px;
+}
+.ligne .right{
+	background: purple;
+	color: white;	
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
+}
+.ligne .left{
+	background: purple;
+	color: white;	
+	padding: 10px;
+	border-radius: 10px;
+	margin: 5px;
 }
 .main{
+	background: red;
 	width: 80%;
+	margin: 0 auto;
 }
