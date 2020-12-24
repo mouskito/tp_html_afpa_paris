@@ -46,7 +46,14 @@ input{
 	border-radius: 5px;
 	padding-bottom: 10px;
 	float: right;
+	width: 50%;
 }
 textarea{
 	border-radius: 5px;
+}
+.ligne ul li{
+	display: inline-block;
+}
+.main{
+	width: 80%;
 }
