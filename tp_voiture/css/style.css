@@ -4,6 +4,7 @@ body{
 }
 nav{
 	background: yellow;	
+	padding-top: 30px;
 }
 nav div {
 	display: inline-block;
