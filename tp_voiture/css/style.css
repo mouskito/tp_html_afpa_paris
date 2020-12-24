@@ -1,0 +1,38 @@
+body{
+	margin: 0;
+	font-family: arial;
+}
+nav{
+	background: yellow;	
+}
+nav div {
+	display: inline-block;
+}
+.right{
+	float: right
+}
+.center{
+	margin: 0 0 0 30%;
+}
+.left{
+	float: left;
+}
+.clearfix {
+  overflow: auto;
+}
+nav ul{
+	margin: 0;
+}
+nav ul li{
+	text-align: center;
+	display: inline-block;
+	padding: 10px;
+}
+nav ul li:hover{
+	background: red;
+}
+nav ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 10px;
+}
