@@ -9,27 +9,73 @@
 	<style type="text/css"></style>  <!-- permet du css directement -->
 </head>
 
-<body> <!-- = page visible -->	
+<body> <!-- = page visible -->	 
 
 	<!-- Architecture -->
 	<header>en-tête</header>
-	<nav>nav</nav>
+	<nav>barre de nav</nav>
+	<nav>
+		<span class="case_menu" id="acceuil">Acceuil</span>
+		<span class="case_menu" id="nous">Qui sommes-nous</span>
+		<span class="case_menu" id="menu1">Menu</span>
+		<span class="case_menu" id="equipe">L'équipe</span>
+		<span class="case_menu" id="contacter">Nous contacter</span>
+	</nav> 
 	<article id="nomarticle">article</article> <!-- permet de changer le css article par article -->
 	<aside>sur les cotés donc pour la pub</aside>
 	<footer>bas de page</footer>
-	bbbbb<div id="nomdeladiv">division = passage a la ligne avant et après</div>ffffff
+	<div id="nomdeladiv">division = passage a la ligne avant et après</div>ffffff
 	<section>Section = passage a la ligne avant et après</section>eeeeeee
 	<p>paragraphe = saut de ligne avant et après</p>aaaaaa
 	<nav>nav</nav>ggggg
-	<data>data = Bloc sans espace</data>hhhhh
+	<center>centré</center>
+	<form>
+		<label>Nom</label>
+		<input type="text" name="nom" maxlength="5"> <!-- type: text, email,password, date, number, range (barre),color, checkbox (case à cocher) -->
+	</form>
+	<form>
+		<input type="submit" name="submit" value="ajouter"> <!-- pas besoin de label == baliste button -->
+	</form>
+	<form>
+		<label>Nom</label>
+		<input type="date" name="date">
+	</form>
+	<form>
+		<label>Nom</label>
+		<input type="reset" name="date">
+	</form>
+	<button></button>
+	<select>
+		<option></option>
+		<option>html</option>
+		<option>css</option>
+	</select>
+	<textarea rows="10" cols="50">	</textarea>
+	<textarea>
+		<input type="submit" name="nom" value= "ajouter">
+		<input type="reset" value="reinit">
+	</textarea>
+	<form>
+		<label>Nom</label>
+		<input type="password" name="date" required>
+	</form>
+	<form>
+		<label>Nom</label>
+		<input type="email" name="date">
+	</form>	<data>data = Bloc sans espace</data>hhhhh
 	<span>span = Bloc sans espace</span>vvvvvvv
 	<br> <!-- Saut de ligne Balise orpheline -->
 	<hr> <!-- Trait Horizontal Balise orpheline -->
 
 	<!-- Nommage d'éléments pour les utiliser ailleurs -->
 	<section id="idunique"> Section identifiant unique pour l'appeler ailleurs </section> 
-	<section class="classunique"> Section classe</section>
+	<section class="classunique plusieurs classes avec espace"> Section classe</section> <!--ma section appartient à 5 calsses différentes-->
 	<section class="classunique"> 1 classe = plusieurs éléments qui auront les mêmes changements appliqués</section>
+	<p class="class1">p dans class</p>
+	<data class="class1">p dans class</data>
+	<div class="class1">p dans class</div>
+
+
 	<hr>
 
 	<!-- Tableau -->
@@ -88,16 +134,18 @@
 	
 	<!-- Media -->
 	<img src="../Ressources_Test/Images/jeu_metroid.jpg" alt="metroid" id="metroid"> <!--alt = nom de l'image pour le referencement -->
+	<img src="https://via.placeholder.com/200x200">
 	<!-- <area shape="" coords="" href=""> <!-- zone cliquable -->
 	<!-- <audio>"../Ressources _Test/Audio/test_audio.mp3</audio>
 	<video>../Ressources _Test/Video/manga_sur_android</video>
 	<map>carte</map>  -->
+
 	<hr>
 	<!-- Lien -->
-	<a href="https://www.afpa.fr/">nom du lien externe	</a>        
-	<a href="lien_interne.html">lien vers fichier = lien lien_interne</a>
-	<a href="mailto:mail_de_la_personne@mail.fr">envoyer mail</a>
-	<a href="../Ressources_Test/Document/test_pdf.pdf">lien_document</a>
+	<a href="https://www.afpa.fr/"> nom du lien externe	</a>        
+	<a href="lien_interne.html"> lien vers fichier = lien lien_interne</a>
+	<a href="mailto:mail_de_la_personne@mail.fr"> envoyer mail</a>
+	<a href="../Ressources_Test/Document/test_pdf.pdf"> lien_document</a>
 
 	<hr>
 
@@ -115,7 +163,7 @@
 	<sup>exposant par html</sup>
 	<cite>citation par html</cite>
 	<time>heure par html</time>
-	<meter>ligne blanche par html</meter> <!-- comment modifier longueur ????-->
+	<meter>ligne blanche par html</meter> <!--longueur css-->
 	<br>
 	<data id="gras">gras par c s s</data>
 	<data id="italique">italique par c s s</data>
@@ -124,7 +172,18 @@
 	<data id="indice">indice par c s s</data>
 	<data id="exposant">exposant par c s s</data>
 	<data id="heure">heure par c s s</data>
-	<data id="ligneblanche">ligne blanche par c s s</data> <!-- comment modifier longueur ????-->
+	<data id="ligneblanche">ligne blanche par c s s</data>
+	<br>
+	<span class="unites_relatives"> <!-- dans css-->
+		Je suis le parent
+		<span class="unite_em">
+			Je suis l'enfant en   em
+		</span>
+		<span class="unites_rem">
+			Je suis l'enfant en root-em
+		</span>
+	</span>
+	<br>
 	
 	<h1>H1</h1>
 	<h2>H2</h2>
@@ -133,8 +192,11 @@
 	<h5>H5</h5>
 	<h6>H6</h6>
 
-	<p id="modifcss">Paragraphe avec plein de modification par CSS</p>
-
+	<p 
+		id="modifcss">Paragraphe avec plein de modification par CSS
+		<a href="cours2212/cours2212.html">Page Multi-article CSS</a>
+	</p>
+	
 	Texte blabla: Lorem + Tab
 
 	<p id="textrandom">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
