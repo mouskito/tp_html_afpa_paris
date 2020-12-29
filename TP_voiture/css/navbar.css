@@ -1,0 +1,22 @@
+nav{
+	background: red;
+	text-align: center;
+}
+nav ul li{
+	display: inline-block;
+	padding: 20px;
+}
+nav ul li:hover{
+	background: green;
+}
+nav ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color: yellow;
+}
+#logo{
+	height: auto;
+	position: absolute;
+	left: 10px;
+	top: 22px;
+}

@@ -1,0 +1,13 @@
+footer{
+	background: red;
+	text-align: center;
+}
+#mention, #conditions{
+	display: inline-block;
+	max-width: 400px;
+}
+#vente article{
+	display: inline-block;
+	vertical-align: top;
+	margin: 20px;
+}

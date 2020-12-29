@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>TP Voiture</title>
+	<title>TP Voitures</title>
 	<link rel="icon" type="image/png" href="Ressources_Test/Images/icon_voiture.png">
 	<link rel="stylesheet" type="text/css" href="css/body.css">
 	<link rel="stylesheet" type="text/css" href="css/navbar.css">
@@ -10,171 +10,444 @@
 </head>
 <body>
 	<header class="navbar">
-		<img src="Ressources_Test/Images/icon_voiture.png" id="logo">
 		<nav>
-			BARRE DES MENUS
+			<img src="Ressources_Test/Images/icon_voiture.png" id="logo">
+			<ul>
+				<li><a href="TP_voiture.html">Accueil</a></li>
+				<li><a href="a_propos_de_nous.html">A propos de nous</a></li>
+				<li><a href="questions_reponses.html">Questions</a></li>
+				<li><a href="formulaire_contact.html">Contact</a></li>
+			</ul>
 		</nav>
 	</header>
 
+	<h1>Nos Super Véhicules :</h1>
 
-	<table>
-		<tr><th colspan="3">Nos Voitures</th></tr>
-		<tr>
-			<td>Voiture 1</td>
-			<td>Voiture 2</td>
-			<td>Voiture 3</td>
-		</tr>
-	</table>
-	<br>
-	<br>
-	<article class="affichage_article" id="enterprise">
+	<section class="ligne">
+		<article class="affichage_article" id="enterprise">
 			<img src="Ressources_Test/Images/enterprise.jpg">
-			<!--<table>
-		<tr>
-			<th>Modèle</th>
-			<th>Marque</th>
-			<th>Kilométrage</th>
-			<th>prix</th>
-					
-		<tr>
-			<td>Modèle</td>
-			<td>Marque</td>
-			<td>Kilométrage</td>
-			<td>Prix</td>
-		</tr>
-
-
-		<tr>
-			<td></td>
-			<td></td>
-			<td>km</td>
-			<td>$</td>
-		</tr>
-			</table>*/-->
-
 			<table>
-				
-					<tr><th>Modèle: </th>
-					<td>nom</td></tr>
-				
-				<td>
-					<tr><th>Marque: </th></tr>
-					<tr>nom</tr>
-				</td>
-				<td>
-					<tr><th>Kilométrage: </th></tr>
-					<tr>nom</tr>
-					<tr> Km</tr>
-				</td>
-				<td>
-					<tr><th>Prix: </th></tr>
-					<tr>nom</tr>
-					<tr> $</tr>
-				</td>
-
+				<tr>
+					<th>Modèle: </th>
+					<td>Enterprise</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>StarFleet</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un vaisseau d'exploration qui vous emmenera aux confins de l'espace et vous fera rencontrer toutes sortes de races différentes et inconnues!!</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>159865169 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>5323255 $</td>
+				</tr>
 			</table>
-	</article>
-	<br>
-	<br>
-	<br>
-	<br>
-	<section class="ligne">
-		<article id="enterprise">
-			<img src="Ressources_Test/Images/enterprise.jpg">
-			<data class="modele">Enterprise</data>
-			<data class="marque">StarFleet</data>
-			<data class="kilométrage">159865169 km</data>
-			<data class="prix">5323255 $</data>
 		</article>
-		<article id="sunny">
+		<article class="affichage_article" id="sunny">
 			<img src="Ressources_Test/Images/sunny.png">
-			<data class="nom">Vogue Sunny</data>
-			<data class="marque">Franky</data>
-			<data class="kilométrage">0 km</data>
-			<data class="prix">300 000 000 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Sunny</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Franky</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un bateau créé spécialement pour vous avec du légendaire bois de l'arbre d'Adan. Bourré de fonctionnalités vous n'avez pas fini d'être surpris.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>0 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>300 000 000 $</td>
+				</tr>
+			</table>
 		</article>
-		<article id="merry">
+		<article class="affichage_article" id="merry">
 			<img src="Ressources_Test/Images/merry.jpg">
-			<data class="nom">Enterprise</data>
-			<data class="marque">StarFleet</data>
-			<data class="kilométrage">180 km</data>
-			<data class="prix">50 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Merry</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Merry</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Une caravelle offerte pour un équipage débutant et peu nombreux. Facile à diriger vous pourrez gravir des montagnes et aller dans le ciel avec.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>18 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>0  $</td>
+				</tr>
+			</table>
 		</article>
 	</section>
 	<section class="ligne">
-		<article id="enterprise">
+		<article class="affichage_article" id="enterprise">
 			<img src="Ressources_Test/Images/enterprise.jpg">
-			<data class="nom">Enterprise</data>
-			<data class="marque">StarFleet</data>
-			<data class="kilométrage">159865169 km</data>
-			<data class="prix">5323255 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Enterprise</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>StarFleet</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un vaisseau d'exploration qui vous emmenera aux confins de l'espace et vous fera rencontrer toutes sortes de races différentes et inconnues!!</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>159865169 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>5323255 $</td>
+				</tr>
+			</table>
 		</article>
-		<article id="sunny">
+		<article class="affichage_article" id="sunny">
 			<img src="Ressources_Test/Images/sunny.png">
-			<data class="nom">Vogue Sunny</data>
-			<data class="marque">Franky</data>
-			<data class="kilométrage">0 km</data>
-			<data class="prix">300 000 000 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Sunny</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Franky</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un bateau créé spécialement pour vous avec du légendaire bois de l'arbre d'Adan. Bourré de fonctionnalités vous n'avez pas fini d'être surpris.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>0 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>300 000 000 $</td>
+				</tr>
+			</table>
 		</article>
-		<article id="merry">
+		<article class="affichage_article" id="merry">
 			<img src="Ressources_Test/Images/merry.jpg">
-			<data class="nom">Enterprise</data>
-			<data class="marque">StarFleet</data>
-			<data class="kilométrage">180 km</data>
-			<data class="prix">50 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Merry</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Merry</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Une caravelle offerte pour un équipage débutant et peu nombreux. Facile à diriger vous pourrez gravir des montagnes et aller dans le ciel avec.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>18 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>0  $</td>
+				</tr>
+			</table>
 		</article>
 	</section>
 	<section class="ligne">
-		<article id="enterprise">
+		<article class="affichage_article" id="enterprise">
 			<img src="Ressources_Test/Images/enterprise.jpg">
-			<data class="nom">Enterprise</data>
-			<data class="marque">StarFleet</data>
-			<data class="kilométrage">159865169 km</data>
-			<data class="prix">5323255 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Enterprise</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>StarFleet</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un vaisseau d'exploration qui vous emmenera aux confins de l'espace et vous fera rencontrer toutes sortes de races différentes et inconnues!!</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>159865169 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>5323255 $</td>
+				</tr>
+			</table>
 		</article>
-		<article id="sunny">
+		<article class="affichage_article" id="sunny">
 			<img src="Ressources_Test/Images/sunny.png">
-			<data class="nom">Vogue Sunny</data>
-			<data class="marque">Franky</data>
-			<data class="kilométrage">0 km</data>
-			<data class="prix">300 000 000 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Sunny</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Franky</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un bateau créé spécialement pour vous avec du légendaire bois de l'arbre d'Adan. Bourré de fonctionnalités vous n'avez pas fini d'être surpris.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>0 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>300 000 000 $</td>
+				</tr>
+			</table>
 		</article>
-		<article id="merry">
+		<article class="affichage_article" id="merry">
 			<img src="Ressources_Test/Images/merry.jpg">
-			<data class="nom">Enterprise</data>
-			<data class="marque">StarFleet</data>
-			<data class="kilométrage">180 km</data>
-			<data class="prix">50 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Merry</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Merry</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Une caravelle offerte pour un équipage débutant et peu nombreux. Facile à diriger vous pourrez gravir des montagnes et aller dans le ciel avec.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>18 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>0  $</td>
+				</tr>
+			</table>
 		</article>
 	</section>
 	<section class="ligne">
-		<article id="enterprise">
+		<article class="affichage_article" id="enterprise">
 			<img src="Ressources_Test/Images/enterprise.jpg">
-			<data class="nom">Enterprise</data>
-			<data class="marque">StarFleet</data>
-			<data class="kilométrage">159865169 km</data>
-			<data class="prix">5323255 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Enterprise</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>StarFleet</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un vaisseau d'exploration qui vous emmenera aux confins de l'espace et vous fera rencontrer toutes sortes de races différentes et inconnues!!</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>159865169 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>5323255 $</td>
+				</tr>
+			</table>
 		</article>
-		<article id="sunny">
+		<article class="affichage_article" id="sunny">
 			<img src="Ressources_Test/Images/sunny.png">
-			<data class="nom">Vogue Sunny</data>
-			<data class="marque">Franky</data>
-			<data class="kilométrage">0 km</data>
-			<data class="prix">300 000 000 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Sunny</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Franky</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un bateau créé spécialement pour vous avec du légendaire bois de l'arbre d'Adan. Bourré de fonctionnalités vous n'avez pas fini d'être surpris.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>0 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>300 000 000 $</td>
+				</tr>
+			</table>
 		</article>
-		<article id="merry">
+		<article class="affichage_article" id="merry">
 			<img src="Ressources_Test/Images/merry.jpg">
-			<data class="nom">Enterprise</data>
-			<data class="marque">StarFleet</data>
-			<data class="kilométrage">180 km</data>
-			<data class="prix">50 $</data>
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Merry</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Merry</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Une caravelle offerte pour un équipage débutant et peu nombreux. Facile à diriger vous pourrez gravir des montagnes et aller dans le ciel avec.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>18 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>0  $</td>
+				</tr>
+			</table>
+		</article>
+	</section>
+	<section class="ligne">
+		<article class="affichage_article" id="enterprise">
+			<img src="Ressources_Test/Images/enterprise.jpg">
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Enterprise</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>StarFleet</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un vaisseau d'exploration qui vous emmenera aux confins de l'espace et vous fera rencontrer toutes sortes de races différentes et inconnues!!</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>159865169 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>5323255 $</td>
+				</tr>
+			</table>
+		</article>
+		<article class="affichage_article" id="sunny">
+			<img src="Ressources_Test/Images/sunny.png">
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Sunny</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Franky</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Un bateau créé spécialement pour vous avec du légendaire bois de l'arbre d'Adan. Bourré de fonctionnalités vous n'avez pas fini d'être surpris.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>0 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>300 000 000 $</td>
+				</tr>
+			</table>
+		</article>
+		<article class="affichage_article" id="merry">
+			<img src="Ressources_Test/Images/merry.jpg">
+			<table>
+				<tr>
+					<th>Modèle: </th>
+					<td>Vogue Merry</td>
+				</tr>
+				<tr>
+					<th>Marque: </th>
+					<td>Merry</td>
+				</tr>
+				<tr>
+					<th>Description: </th>
+					<td class="description">Une caravelle offerte pour un équipage débutant et peu nombreux. Facile à diriger vous pourrez gravir des montagnes et aller dans le ciel avec.</td>
+				</tr>
+				<tr>
+					<th>Kilométrage: </th>
+					<td>18 Km</td>
+				</tr>
+				<tr>
+					<th>Prix: </th>
+					<td>0  $</td>
+				</tr>
+			</table>
 		</article>
 	</section>
 
 	<footer>
-		<div class="entreprise"></div>
-		<div class="sociaux">
-			
+		<div id="vente">
+			<article id="mention">
+				<h3>Mentions Légales</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</article>
+			<article id="conditions">
+				<h3>Conditions de vente</h3>
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			</article>
+			<article>
+				<h3>Qui sommes-nous ?</h3>
+				<a href="a_propos_de_nous.html">A propos de nous</a>
+			</article>
+		</div>
+		<div id="reseaux">
+			<h3>Suivez-nous sur les réseaux sociaux !</h3>
+			<a 
+				href="http://facebook.com">
+				<img src="Ressources_Test/Images/facebook.png">
+			</a>
+			<a 
+				href="https://twitter.com/">
+				<img src="Ressources_Test/Images/twitter.png">
+			</a>
+			<a 
+				href="https://www.linkedin.com">
+				<img src="Ressources_Test/Images/linkdin.png">
+			</a>
 		</div>
 	</footer>
 </body>
