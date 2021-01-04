@@ -47,12 +47,10 @@ img{
 	width: 250px;
 	border:solid 2px;
 	border-color: red
-
 }
 .article{
 	display:inline-block;
 }
-
  p{
  	text-align: center;
  	margin-right: 5px; 	
@@ -60,7 +58,6 @@ img{
 .model{
 	float: left;
 }
-
 .lemodel{
     float: right;
     padding-left: 38px;
@@ -81,15 +78,12 @@ img{
 	margin-left: 80px;
 	background: orange
 }
-
 .mention{
 	width: 64px;
 	height:64px;
 }
-
 footer{
 	background: red
-
 }
 .sujet{
 color: white;
@@ -101,4 +95,27 @@ width: 120px;
 .enbas{
 	text-align: center;
 	display: inline-block;
+}
+
+@media(max-width: 360px) and (max-width: 640px){
+
+.article {
+    display: block;
+}
+.menu{
+	padding: 20px;
+}
+.ident{
+	margin-top: 10px;
+}
+.ident ul li{
+	display: block;
+}
+nav{
+	max-height: 120px;
+}
+#roue{
+	margin-top: -30px
+	
+}
 }
