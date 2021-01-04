@@ -21,30 +21,12 @@ header img{width: 60px;}
 	margin-left: 1px;
 	text-align: center;
 }
-/*.ligne{
+.ligne{
 	display: flex;
 	width: all;
-}*/
+}
 
 h1{
 	text-align: center;
 	color: blue;
-}
-/*media pour detecter l'appreil*/
-@media(max-width: 320px){
-	.affichage_article{
-		width: all;
-	 }
-} /*portable*//
-
-@media(min-width: 321px) and (max-width: 750px;){
-	.affichage_article{
-		width: 49%;
-	}
-}
-
-@media(min-width: 751px;){
-	.affichage_article{
-		width: 30%;
-	}
 }

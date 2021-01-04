@@ -1,50 +1,50 @@
 header img{width: 60px;}
 
+body{display: inline-block;}
+
 .affichage_article{
 	display: inline-block;
 	border: solid 1px;
 	padding: 2px;
 	background: gold;
-	min-width: 300px;
-	max-width: 32%;
-	max-height: 400px;
 	margin-bottom: 10px;
 	vertical-align: all;
 }
 
 .affichage_article img{
 	float: top;
-	max-height: 100px;
-	margin-left: 30%;
+	display: flex;
+	max-width: 90%;
+	min-height: 320px;
+	margin-left: auto;
+	margin-right: auto;
 }
 .affichage_article table{
 	margin-left: 1px;
 	text-align: center;
 }
-/*.ligne{
-	display: flex;
-	width: all;
-}*/
 
 h1{
 	text-align: center;
 	color: blue;
 }
 /*media pour detecter l'appreil*/
-@media(max-width: 320px){
+@media only screen and (max-device-width: 320px) { /*portable*/
 	.affichage_article{
 		width: all;
-	 }
-} /*portable*//
+	}
+	body{background: blue;}
+} 
 
-@media(min-width: 321px) and (max-width: 750px;){
+@media only screen and (min-device-width: 321px) and (max-device-width: 750px){ /*tablette*/
 	.affichage_article{
 		width: 49%;
 	}
+	body{background: green;}
 }
-
-@media(min-width: 751px;){
+@media only screen and (min-device-width: 751px) { /*ordi*/
 	.affichage_article{
-		width: 30%;
+		width: 32%;
 	}
+	body{background: red;}
 }
