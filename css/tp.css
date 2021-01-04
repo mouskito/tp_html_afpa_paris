@@ -20,43 +20,30 @@ header{
 	width: 150px;
 }
 
+img{
+	height: 188px;
+	width: 250px;
+}
 section{
-	display: flex;
-	margin: 20px;
+	width: 250px;
+	overflow: hidden;
 }
 
-.item{
-	padding: 10px;
-	margin: 10px;
-	border:1px solid;
+section ul{
+	display: table;
+	animation: 20s normal infinite slide;
+	width: calc(250px * 5);
+
+}
+section ul li{
+	display: table-cell;
 }
 
-.item .photo-marque img, .marque{
-	width: 100%;
-}
-
-.photo-marque{
-	position: relative;
-}
-
-.marque{
-	position: absolute;
-	top: 20%;
-	text-align: center;
-}
-
-.details{
-	color: white;
-}
-
-.details .kilo{
-	float: left;
-	padding: 10px;
-	background-color: #F633FF;
-}
-
-.details .prix{
-	float: right;
-	background-color: #F633FF;
-	padding: 10px;
+@keyframes slide{
+	0% 20%{ transform: translateX(0px); }
+	20%{ transform: translateX(-250px); }
+	40%{ transform: translateX(-500px); }
+	60%{ transform: translateX(-750px); }
+	80%{ transform: translateX(-1000px); }
+	100%{ transform: translateX(0px); }
 }
