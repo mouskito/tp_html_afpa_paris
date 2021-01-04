@@ -1,0 +1,25 @@
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#polices{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+#gras{font-weight: bold;}
+#italique{font-style: italic;}
+#barré{text-decoration: line-through; }
+#petit{font-size: smaller;}
+#indice{font-variant-position: sub; font-size: smaller; position: sticky;}
+#exposant{font-variant-position: super; font-size: smaller;}
+#citation{quotes: "";}
+
+meter{width: 100px;}

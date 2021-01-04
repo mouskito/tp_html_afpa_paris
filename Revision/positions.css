@@ -1,0 +1,35 @@
+.conteneur{
+	width: 70%;
+	background: blue;
+	margin:auto;
+	padding: 10px;
+	color: white;
+}
+
+#positions{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	font-size: 30px;
+	font-style: italic;
+}
+
+.static{position: static;}
+.fixed{
+	position: fixed;
+	bottom: 0;
+}
+.relative{
+	position: relative;
+	top: 0;
+	right: 0;
+	background: yellow;
+}
+.absolue{
+	position: absolute;
+	background: grey;
+}
+.sticky{
+	position: sticky;
+	background: red;
+}
