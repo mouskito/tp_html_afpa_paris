@@ -23,3 +23,7 @@
 #citation{quotes: "";}
 
 meter{width: 100px;}
+
+.unites_relatives{font-size: 5em} /*1em = 16px*/
+.unite_em{font-size: 50%}
+.unites_rem{font-size: 1rem} /*relative par rapport à la racine (la balise html)*/
