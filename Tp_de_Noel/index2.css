@@ -97,25 +97,33 @@ width: 120px;
 	display: inline-block;
 }
 
-@media(max-width: 360px) and (max-width: 640px){
+@media only screen and (min-device-width: 360px) and (max-device-width: 640px){
 
 .article {
     display: block;
+    width: 600px;
+	border:solid 2px;
+	border-color: red;
+	font-size: 40px;
 }
-.menu{
-	padding: 20px;
-}
-.ident{
-	margin-top: 10px;
-}
-.ident ul li{
+.info{
 	display: block;
 }
-nav{
-	max-height: 120px;
+.paragraphe{
+	clear: both;
+	margin-top: 0px;
 }
-#roue{
-	margin-top: -30px
-	
+img{
+	width: 600px;
+	height: 500px;
+}
+.menu{
+	font-size: 40px;
+}
+.ident{
+	float: right;
+	margin-top: 0;
+	margin-right: 0;
+	font-size: 16px;
 }
 }
