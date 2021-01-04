@@ -1,0 +1,104 @@
+nav{
+	background: red;
+	position: fixed;
+	top:0;
+	right: 0;
+	left: 0;
+}
+.menu{
+	display: inline-block;
+	padding: 42px;
+}
+.ident{
+	float: right;
+		margin-top: 20px;
+		margin-right: 20px;
+}
+.ident ul li{
+	display: inline;
+	padding-right: 5px;
+
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+.menu:hover{
+	background: orange;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.espace{
+	padding-top: 70px;
+}
+#roue{
+	float: left;
+	width: 100px;
+	height: 100px;
+
+}
+img{
+	width: 250px;
+	height: 200px;
+}
+
+.article{
+	width: 250px;
+	border:solid 2px;
+	border-color: red
+
+}
+.article{
+	display:inline-block;
+}
+
+ p{
+ 	text-align: center;
+ 	margin-right: 5px; 	
+ }
+.model{
+	float: left;
+}
+
+.lemodel{
+    float: right;
+    padding-left: 38px;
+    padding-right: 20px;
+}
+.prix{
+	display: inline-block;
+	border:solid 1px;
+	border-color: red;
+	margin-left: 20px;
+	background: orange
+}
+.kilometre{
+	display: inline-block;
+	border:solid 1px;
+	border-color: red;
+	margin-right: 20px;
+	margin-left: 80px;
+	background: orange
+}
+
+.mention{
+	width: 64px;
+	height:64px;
+}
+
+footer{
+	background: red
+
+}
+.sujet{
+color: white;
+width: 120px;
+}
+.titre{
+	color: white;
+}
+.enbas{
+	text-align: center;
+	display: inline-block;
+}
