@@ -1,0 +1,27 @@
+header{
+	background: black;
+	color: white;
+	height: 100px;
+}
+
+#logo img{
+	float: left;
+	width: 200px;
+	margin-right: 30px;
+}
+
+.menu-nav ul{
+	display: inline-block;
+	list-style-type: none;
+}
+
+.menu-nav ul li{
+	float: left;
+	width: 150px;
+}
+
+.menu-nav a{
+	color: #ffffff;
+	text-decoration: none;
+	text-transform: uppercase;
+}
