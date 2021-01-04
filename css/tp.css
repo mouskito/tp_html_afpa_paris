@@ -20,3 +20,43 @@ header{
 	width: 150px;
 }
 
+section{
+	display: flex;
+	margin: 20px;
+}
+
+.item{
+	padding: 10px;
+	margin: 10px;
+	border:1px solid;
+}
+
+.item .photo-marque img, .marque{
+	width: 100%;
+}
+
+.photo-marque{
+	position: relative;
+}
+
+.marque{
+	position: absolute;
+	top: 20%;
+	text-align: center;
+}
+
+.details{
+	color: white;
+}
+
+.details .kilo{
+	float: left;
+	padding: 10px;
+	background-color: #F633FF;
+}
+
+.details .prix{
+	float: right;
+	background-color: #F633FF;
+	padding: 10px;
+}
