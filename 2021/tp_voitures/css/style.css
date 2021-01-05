@@ -84,6 +84,11 @@ display: block;
 }
 
 @media ((min-width: 360px) and (max-width: 767px)){
+
+  body {
+    background-color: beige;
+  }
+
  #logo img {
    width: 70px;
  }
@@ -125,8 +130,9 @@ section .item{
     overflow:auto;
 
     float:left;
-    width: 89vw;
-    margin: 10px 5px 5px 0px;
+    width: 85vw;
+    margin: 10px 15px auto;
+    background-color: white;
 }
 }
 
@@ -153,18 +159,18 @@ p{
 
 section .item {
   float:left;
-  width: 41vw;
+  width: 40vw;
   margin: 10px 5px 5px 30px;
 }
 
 .item .photo-marque img{
 width: 200px;
 height: 90px;
-}
+}W
 
 }
 
-@media ((min-width: 1025px) and (max-width: 1543px)){
+@media screen and ((min-width: 1025px) and (max-width: 1543px)){
 
   .item .photo-marque img{
   width: 280px;
@@ -173,7 +179,17 @@ height: 90px;
 
   section .item {
     float:left;
-    width: 41vw;
+    width: 40vw;
+    margin: 10px 5px 5px 50px;
+  }
+
+}
+
+@media screen and (min-width: 1544px){
+
+  section .item {
+    float:left;
+    width: 27vw;
     margin: 10px 5px 5px 50px;
   }
 
