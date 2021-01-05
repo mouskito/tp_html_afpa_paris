@@ -60,7 +60,7 @@ textarea{
 .ligne ul li{
 	display: inline-block;
 	background: green;
-	width: 32%;
+	width: 30%;
 	border: solid black 1px;
 }
 .ligne .right{
@@ -87,4 +87,14 @@ footer{
 }
 footer img{
 	border-radius: 100%;
+}
+footer ul li{
+	display: inline-block;
+	width: 100px;
+}
+
+@media only screen and (min-device-width:0px) and (max-device-width:1049px){
+	.ligne ul li{
+		width: 100%;
+	}
 }
