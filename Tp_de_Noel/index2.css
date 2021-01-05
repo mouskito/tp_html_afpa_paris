@@ -97,7 +97,7 @@ width: 120px;
 	display: inline-block;
 }
 
-@media only screen and (min-device-width: 360px) and (max-device-width: 640px){
+@media only screen and (min-device-width: 280px) and (max-device-width: 640px){
 
 .article {
     display: block;
@@ -121,9 +121,32 @@ img{
 	font-size: 40px;
 }
 .ident{
-	float: right;
-	margin-top: 0;
-	margin-right: 0;
-	font-size: 16px;
+	position: absolute;
+    top: -10px;
+    right: 10px;
+	font-size: 25px;
 }
+.ident ul{
+	margin:0px;
+}
+nav{
+	height: 100px;
+}
+.espace{
+	padding-top: 50px;
+}
+}
+
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px){
+
+.ident{
+	position: absolute;
+    top: -40px;
+    right: 60px;
+	font-size: 20px;
+}
+.menu{
+	font-size: 40px;
+}
+
 }
