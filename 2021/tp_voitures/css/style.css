@@ -31,6 +31,7 @@ header{
 .section{
   float: left;
   display:inline;
+
 }
 
 
@@ -41,6 +42,7 @@ header{
   float:left;
   width: 27vw;
   margin: 10px 5px 5px 50px;
+	box-shadow: 3px 3px 14px -4px rgba(0,0,0,0.75);
 }
 
 .item .photo-marque img{
@@ -140,7 +142,7 @@ height: 80px;
 }
 }
 
-@media ((min-width: 768px) and (max-width: 1024px)){
+@media screen and ((min-width: 768px) and (max-width: 1024px)){
 
   .menu-nav .access{
     display: none;
