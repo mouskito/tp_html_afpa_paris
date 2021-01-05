@@ -17,8 +17,8 @@ nav{
 .ident ul li{
 	display: inline;
 	padding-right: 5px;
-
 }
+
 a{
 	text-decoration: none;
 	color: white;
@@ -88,20 +88,26 @@ img{
 	width: 64px;
 	height:64px;
 }
-footer{
-	background: red
+.footer{
+	background: red;
+
 }
 .sujet{
 color: white;
-width: 120px;
 }
+
 .titre{
 	color: white;
-}
-.enbas{
 	text-align: center;
 	display: inline-block;
 }
+.enbas {
+	text-align: center;
+}
+.folow{
+	text-align: center;
+}
+
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 640px){
 
@@ -127,15 +133,7 @@ img{
 .menu{
 	font-size: 40px;
 }
-.ident{
-	position: absolute;
-    top: -10px;
-    right: 10px;
-	font-size: 25px;
-}
-.ident ul{
-	margin:0px;
-}
+
 nav{
 	height: 100px;
 }
@@ -146,6 +144,52 @@ nav{
 	cursor: pointer;
 	transform: scale(1.2);
 	transition-duration: 2s;
+}
+
+.ident li{
+	visibility: hidden;
+}
+.ident:hover li{
+	visibility: visible;
+	background: red;
+	display: block;
+}
+.ident::before{
+	content: "contact";
+	color: black,
+	font-size:100px;	
+}
+
+}
+.ident{
+    position: absolute;
+    top: 22px;
+    right: -223px;
+    font-size: 40px;
+}
+.footer{
+	position: absolute;
+	width: 100%;
+}
+
+.enbas{
+	visibility: hidden;
+	color: black;
+	height: 100px;
+	display: flex;
+	justify-content: center;
+
+}
+.titre img{
+	visibility: visible;
+}
+
+.enbas:hover{
+	visibility: visible;
+	height: auto;
+}
+.folow{
+	text-align: center;
 }
 }
 
