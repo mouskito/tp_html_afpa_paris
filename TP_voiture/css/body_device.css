@@ -34,6 +34,8 @@ h1{
 		width: all;
 	}
 	body{background: blue;}
+	nav li {visibility: hidden;}
+	nav:hover li {visibility: visible;}
 } 
 
 @media only screen and (min-device-width: 321px) and (max-device-width: 750px){ /*tablette*/
@@ -46,5 +48,4 @@ h1{
 	.affichage_article{
 		width: 32%;
 	}
-	body{background: red;}
 }

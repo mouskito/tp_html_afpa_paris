@@ -31,3 +31,5 @@
 	background: blue;
 }
 
+#beforeafter::before{content: "ceci est un before  "}
+#beforeafter::after{content: "  ceci est un after"}
