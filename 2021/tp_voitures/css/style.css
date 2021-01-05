@@ -126,7 +126,7 @@ section .item{
 
     float:left;
     width: 89vw;
-    margin: 5px auto;
+    margin: 10px 5px 5px 18px;
 }
 }
 
@@ -154,12 +154,27 @@ p{
 section .item {
   float:left;
   width: 41vw;
-  margin: 10px 5px 5px 25px;
+  margin: 10px 5px 5px 30px;
 }
 
 .item .photo-marque img{
 width: 200px;
 height: 90px;
 }
+
+}
+
+@media ((min-width: 1025px) and (max-width: 1543px)){
+
+  .item .photo-marque img{
+  width: 280px;
+  height: 140px;
+  }
+
+  section .item {
+    float:left;
+    width: 41vw;
+    margin: 10px 5px 5px 50px;
+  }
 
 }
