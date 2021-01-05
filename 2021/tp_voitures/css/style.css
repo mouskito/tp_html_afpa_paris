@@ -28,17 +28,18 @@ header{
   color: white;
 }
 
-section{
+.section{
   float: left;
   display:inline;
 }
+
 
 .item{
 	padding: 10px;
 	border:1px solid;
   max-height: 500px;
   float:left;
-  width: 28vw;
+  width: 27vw;
   margin: 10px 5px 5px 50px;
 }
 
@@ -64,7 +65,10 @@ display: block;
 .details{
 	color: white;
   position: relative;
-  bottom: 0;
+
+	  margin-top: 10px;
+	  padding-bottom: 10px;
+
 }
 
 .details .kilo{
@@ -120,11 +124,11 @@ width: 200px;
 height: 80px;
 }
 
-section {
+.section {
   display: inline-block;
 }
 
-section .item{
+.section .item{
     height:auto;
     max-height:150%;
     overflow:auto;
@@ -142,7 +146,7 @@ section .item{
     display: none;
   }
 
-section {
+.section {
   float: left;
   display:inline;
 
@@ -157,7 +161,7 @@ p{
   margin-bottom: 10px;
 }
 
-section .item {
+.section .item {
   float:left;
   width: 40vw;
   margin: 10px 5px 5px 30px;
@@ -177,19 +181,9 @@ height: 90px;
   height: 140px;
   }
 
-  section .item {
+  .section .item {
     float:left;
     width: 40vw;
-    margin: 10px 5px 5px 50px;
-  }
-
-}
-
-@media screen and (min-width: 1544px){
-
-  section .item {
-    float:left;
-    width: 27vw;
     margin: 10px 5px 5px 50px;
   }
 
