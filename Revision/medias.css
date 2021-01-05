@@ -34,6 +34,7 @@ article{
 	border: solid 1px;
 }
 
+/*Les fonds d'écran*/
 #fond_cover{
 	background-image: url(../Ressources_Test/Images/facebook.png);		
 	background-size: cover; /*image agrandie sur toute la surface*/
