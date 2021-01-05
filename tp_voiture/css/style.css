@@ -13,7 +13,7 @@ nav div {
 	float: right
 }
 .center{
-	margin: 0 0 0 30%;
+	margin: 0 0 0 23%;
 }
 .left{
 	float: left;
@@ -88,13 +88,24 @@ footer{
 footer img{
 	border-radius: 100%;
 }
+footer ul {
+	margin: 0 0 0 -50px;
+}
 footer ul li{
 	display: inline-block;
-	width: 100px;
+	list-style-type: none;
+	width: 80px;
 }
 
-@media only screen and (min-device-width:0px) and (max-device-width:1049px){
+@media only screen and (min-device-width: 0px) and (max-device-width: 1049px){
 	.ligne ul li{
 		width: 100%;
+	}
+	footer ul li p{
+		display: none;
+	}
+	footer ul li:hover p{
+		display: block;
+		float: none;
 	}
 }
