@@ -3,6 +3,7 @@
 	justify-content: space-around;
 	margin-right: 500px;
 	margin-left: 500px;
+
 }
 
 .flexbox div{
@@ -10,6 +11,7 @@
 	width: 400px;
     margin: 29px;
     text-align: center;
+    box-shadow: 0 5px 5px 2px
 }
 
 
@@ -34,5 +36,5 @@ height: 220px;
 }
 
 .corse2{
-	width: 400px !important;
+	width: 400px;
 }
