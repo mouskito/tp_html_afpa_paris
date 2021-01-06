@@ -89,11 +89,13 @@ img{
 	height:64px;
 }
 .footer{
-	background: red;
+	background: ;
 
 }
 .sujet{
-color: white;
+	color: white;
+	height: 150px;
+	width:150px;
 }
 
 .titre{
@@ -107,7 +109,9 @@ color: white;
 .folow{
 	text-align: center;
 }
-
+section{
+	background: red;
+}
 
 @media only screen and (min-device-width: 280px) and (max-device-width: 640px){
 
@@ -117,35 +121,31 @@ color: white;
 	border:solid 2px;
 	border-color: red;
 	font-size: 40px;
+	margin-top: 57px;
 }
 
-.info{
-	display: block;
-}
-.paragraphe{
-	clear: both;
-	margin-top: 0px;
-}
 img{
 	width: 600px;
 	height: 500px;
 }
 .menu{
-	font-size: 40px;
+	font-size: 39px;
 }
-
-nav{
+.enbas{
+	visibility: hidden;
+	color: black;
 	height: 100px;
+	display: flex;
+	justify-content: center;
+	padding-top: 14px;
 }
-.espace{
-	padding-top: 50px;
+.enbas img{
+	visibility: visible;
 }
-.article:hover{
-	cursor: pointer;
-	transform: scale(1.2);
-	transition-duration: 2s;
+.enbas:hover{
+	visibility: visible;
+	height: auto;
 }
-
 .ident li{
 	visibility: hidden;
 }
@@ -156,53 +156,10 @@ nav{
 }
 .ident::before{
 	content: "contact";
-	color: black,
-	font-size:100px;	
 }
-
+.ident ul li{
+	display: block;
+	padding-right: 5px;
+	font-size: 30px;
 }
-.ident{
-    position: absolute;
-    top: 22px;
-    right: -223px;
-    font-size: 40px;
-}
-.footer{
-	position: absolute;
-	width: 100%;
-}
-
-.enbas{
-	visibility: hidden;
-	color: black;
-	height: 100px;
-	display: flex;
-	justify-content: center;
-
-}
-.titre img{
-	visibility: visible;
-}
-
-.enbas:hover{
-	visibility: visible;
-	height: auto;
-}
-.folow{
-	text-align: center;
-}
-}
-
-@media only screen and (min-device-width: 641px) and (max-device-width: 1024px){
-
-.ident{
-	position: absolute;
-    top: -40px;
-    right: 60px;
-	font-size: 20px;
-}
-.menu{
-	font-size: 40px;
-}
-
 }
