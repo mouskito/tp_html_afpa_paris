@@ -1,0 +1,38 @@
+.flexbox{
+	display: flex;
+	justify-content: space-around;
+	margin-right: 500px;
+	margin-left: 500px;
+}
+
+.flexbox div{
+	border: 2px solid;
+	width: 400px;
+    margin: 29px;
+    text-align: center;
+}
+
+
+.flexbox a{
+	display: block;
+	background: grey;
+	margin: 40px;
+}
+
+.flexbox div:nth-child(2),.flexbox div:nth-child(3){
+	width: 200px;
+    margin: 29px;
+    text-align: center;
+}
+
+.corse{
+width: 100%;
+height: 220px;
+}
+.corse1{
+	flex: auto;
+}
+
+.corse2{
+	width: 400px !important;
+}

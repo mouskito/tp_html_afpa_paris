@@ -162,4 +162,7 @@ img{
 	padding-right: 5px;
 	font-size: 30px;
 }
+.info p{
+	clear: both;
+}
 }
