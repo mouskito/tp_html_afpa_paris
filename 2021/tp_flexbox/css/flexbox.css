@@ -1,29 +1,28 @@
 .flexbox {
-  background-color: white;
   display: flex;
   justify-content: center;
   clear: both;
 }
 
-.flexbox > div{
+.flexbox .item{
   box-shadow: 3px 3px 13px -4px rgba(0,0,0,0.75);
   margin: 20px;
+  background-color: beige;
 }
 
-.flexbox > div:nth-child(1){
+.flexbox > .item:nth-child(1){
   width: 400px;
   height: 500px;
 }
 
-.flexbox > div:nth-child(2), div:nth-child(3){
+.flexbox > .item:nth-child(2), .item:nth-child(3){
   width: 200px;
   height: 500px;
 }
 
-
 .flexbox .text
  {
-    margin: 15px 0px 0px 10px;
+    margin: 15px 0px 25px 15px;
 }
 
 .flexbox b{
@@ -31,17 +30,24 @@
   font-family: fantasy;
 }
 
-.flexbox .item1 img:nth-child(1){
+.flexbox .item:nth-child(1) img{
   width:100%;
   height: 300px;
 }
 
-.flexbox .item2 img, .flexbox .item3 img{
+.flexbox .item:nth-child(2) img, .item:nth-child(3) img{
   width: 100%;
   height: 180px;
 }
 
-.item1-button, .item2-button, .item3-button{
+.item2-button, .item3-button{
+  max-width: 80%;
+  background-color: grey;
+  max-height: 8%;
+  margin: 0 auto;
+}
+
+.item1-button {
   max-width: 80%;
   background-color: grey;
   max-height: 8%;
