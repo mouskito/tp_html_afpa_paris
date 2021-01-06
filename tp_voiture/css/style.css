@@ -88,27 +88,26 @@ textarea{
 }
 footer{
 	background: yellow;
+	text-align: center;
 }
 footer img{
 	border-radius: 100%;
 }
-footer ul {
-	margin: 0 0 0 -50px;
+footer .footer-items {
+	display: inline-flex;
 }
-footer ul li{
+footer .footer-items .footer-item{
 	display: inline-block;
-	list-style-type: none;
-	width: 80px;
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 1049px){
 	.ligne ul li{
 		width: 100%;
 	}
-	footer ul li p{
+	footer .footer-items .footer-item p{
 		display: none;
 	}
-	footer ul li:hover p{
+	footer .footer-items .footer-item:hover p{
 		display: block;
 		float: none;
 	}
