@@ -27,7 +27,7 @@
 
 .flexbox b{
   font-size: 21px;
-  font-family: fantasy;
+  font-family: sans-serif;
 }
 
 .flexbox .item:nth-child(1) img{
@@ -54,7 +54,7 @@
   margin: 0 auto;
 }
 
-a{
+.flexbox a{
   text-decoration: none;
 }
 
