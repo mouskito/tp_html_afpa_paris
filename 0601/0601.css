@@ -29,7 +29,7 @@ body{}
 }
 .destination{
 	display: flex;
-	justify-content: space-between;
+	/*justify-content: space-between; /*sert à prendre toute la hauteur dans la case*/ 
 	flex-direction: column;
 	border: solid 2px;
 	height: 1000px;
@@ -38,7 +38,6 @@ body{}
 .voyage img{
 	max-width: 100%;
 	margin: 1px;
-	height: 400px;
 }
 .description{
 	margin: 20px;
