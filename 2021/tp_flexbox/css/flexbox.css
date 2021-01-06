@@ -1,0 +1,59 @@
+.flexbox {
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  clear: both;
+}
+
+.flexbox > div{
+  box-shadow: 3px 3px 13px -4px rgba(0,0,0,0.75);
+  margin: 20px;
+}
+
+.flexbox > div:nth-child(1){
+  width: 400px;
+  height: 500px;
+}
+
+.flexbox > div:nth-child(2), div:nth-child(3){
+  width: 200px;
+  height: 500px;
+}
+
+
+.flexbox .text
+ {
+    margin: 15px 0px 0px 10px;
+}
+
+.flexbox b{
+  font-size: 21px;
+  font-family: fantasy;
+}
+
+.flexbox .item1 img:nth-child(1){
+  width:100%;
+  height: 300px;
+}
+
+.flexbox .item2 img, .flexbox .item3 img{
+  width: 100%;
+  height: 180px;
+}
+
+.item1-button, .item2-button, .item3-button{
+  max-width: 80%;
+  background-color: grey;
+  max-height: 8%;
+  margin: 0 auto;
+}
+
+a{
+  text-decoration: none;
+}
+
+.item1-button a p, .item2-button a p, .item3-button a p{
+  color: white;
+  text-align: center;
+  padding: 10px;
+}

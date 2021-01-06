@@ -77,6 +77,10 @@ footer {
   text-align: center;
 }
 
+footer .contact1 img {
+  width: 140px;
+  height: 140px;
+}
 .footer-text {
   clear: both;
   margin: 0 auto;
