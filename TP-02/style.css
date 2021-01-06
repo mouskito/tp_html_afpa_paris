@@ -7,6 +7,7 @@
 }
 
 .card {
+    height: 90%;
     margin: 1rem;
     border: .5px solid rgba(0, 0, 0, 0.5);
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
@@ -18,7 +19,6 @@
 
 .card2, .card3 {
     flex-shrink: 3;
-    height: 88%;
 }
 
 .card__text  {
@@ -26,9 +26,14 @@
 }
 
 .btn-default {
+    color: #fff;
     text-align: center;
-    background-color: darkgoldenrod;
+    background-color: goldenrod;
     padding: 1rem 1.5rem;
     border: none;
     width: 100%;
+}
+
+.btn-default:hover {
+    background-color: darkgoldenrod;
 }
