@@ -11,8 +11,7 @@ nav{
 }
 .ident{
 	float: right;
-		margin-top: 20px;
-		margin-right: 20px;
+	margin-top: -33px;
 }
 .ident ul li{
 	display: inline;
@@ -158,7 +157,7 @@ img{
 	content: "contact";
 }
 .ident ul li{
-	display: block;
+	display: inline-block;
 	padding-right: 5px;
 	font-size: 30px;
 }

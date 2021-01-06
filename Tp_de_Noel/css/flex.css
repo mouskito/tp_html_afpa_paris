@@ -38,3 +38,17 @@ height: 220px;
 .corse2{
 	width: 400px;
 }
+
+
+@media only screen and (min-device-width: 280px) and (max-device-width: 640px){
+	.flexbox{
+		display: inline;
+	}
+
+
+.flexbox div:nth-child(2),.flexbox div:nth-child(3){
+	width: 400px;
+    margin: 29px;
+    text-align: center;
+}
+}
