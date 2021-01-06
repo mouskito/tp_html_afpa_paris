@@ -169,6 +169,24 @@ footer .footer-item{
 		visibility: visible;
 		background-color: red;
 	}
+
+	.footer-item{
+		visibility: hidden;
+		height: 150px;
+	}
+
+	.footer-item img{
+		visibility: visible;
+	}
+
+	.footer-item:hover{
+		visibility: visible;
+		height: auto;
+	}
+
+	footer {
+		height: 31em;
+	}
 }
 
 /* Device Tablette*/
