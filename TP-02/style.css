@@ -6,33 +6,23 @@
     width: 100%;
 }
 
-.card1 {
+.card {
     margin: 1rem;
-    width: 50vw;
     border: .5px solid rgba(0, 0, 0, 0.5);
     box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
 }
 
-.card2 {
-    margin: 1rem;
-    width: 25vw;
-    border: .5px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+.card1 {
+    flex-shrink: 1;
 }
-.card3 {
-    margin: 1rem;
-    width: 25vw;
-    border: .5px solid rgba(0, 0, 0, 0.5);
-    box-shadow: 4px 4px 5px rgba(0, 0, 0, 0.5);
+
+.card2, .card3 {
+    flex-shrink: 3;
+    height: 88%;
 }
 
 .card__text  {
     padding: 1rem;
-}
-
-image {
-    width: 100%;
-    height: auto;
 }
 
 .btn-default {
@@ -40,4 +30,5 @@ image {
     background-color: darkgoldenrod;
     padding: 1rem 1.5rem;
     border: none;
+    width: 100%;
 }
