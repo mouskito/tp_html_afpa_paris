@@ -62,6 +62,7 @@ textarea{
 	background: green;
 	width: 30%;
 	border: solid black 1px;
+	margin-bottom: 10px;
 }
 .ligne ul li:hover{
 	transform: scale(1.1);
@@ -97,7 +98,8 @@ footer .footer-items {
 	display: inline-flex;
 }
 footer .footer-items .footer-item{
-	display: inline-block;
+	margin: 10px;
+	padding: 10px;
 }
 
 @media only screen and (min-device-width: 0px) and (max-device-width: 1049px){
@@ -109,6 +111,5 @@ footer .footer-items .footer-item{
 	}
 	footer .footer-items .footer-item:hover p{
 		display: block;
-		float: none;
 	}
 }
