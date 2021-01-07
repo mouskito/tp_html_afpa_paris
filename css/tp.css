@@ -144,10 +144,27 @@ footer .footer-item{
 	margin: 10px;
 }
 
+
+
+footer .blabla{
+	visibility: hidden;
+}
+
+footer .blabla:hover{
+	visibility: visible;
+	background-color: red;
+	font: white;
+	width: 100px;
+	padding: 5px;
+	margin: 10px;
+}
+
 /*Fin FOOTER */
 
+
+ 
 /*Device MOBILE */
-@media only screen and (min-device-width: 120px) and (max-device-width: 749px){
+@media only screends and (min-device-width: 120px) and (max-device-width: 749px){
 	body{
 		background-color: yellow !important;
 	}
@@ -170,23 +187,7 @@ footer .footer-item{
 		background-color: red;
 	}
 
-	.footer-item{
-		visibility: hidden;
-		height: 150px;
-	}
-
-	.footer-item img{
-		visibility: visible;
-	}
-
-	.footer-item:hover{
-		visibility: visible;
-		height: auto;
-	}
-
-	footer {
-		height: 31em;
-	}
+	
 }
 
 /* Device Tablette*/

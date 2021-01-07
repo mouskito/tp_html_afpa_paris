@@ -1,0 +1,35 @@
+body{
+	background: white;
+}
+span{
+	background: yellow;
+	text-align: center;
+	width: auto;
+	height: auto;
+	display: flex;
+
+}
+.photo1, .photo2, .photo3{
+	text-align: center;
+	width: auto;
+	height: auto;
+	display: flex;	
+}
+
+
+@media only screends and (min-device-width: 120px) and (max-device-width: 749px){
+body{
+		background-color: yellow !important;
+	}
+	section{
+		display: block;
+	}
+
+@media(min-width: 750px) and (max-width: 1024px){
+body{
+		background-color: red;
+	}
+
+@media only screends and (min-device-width: 120px) and (max-device-width: 749px){
+	body{
+		background-color: yellow !important;
