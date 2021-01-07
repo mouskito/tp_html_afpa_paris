@@ -11,7 +11,6 @@ nav{
 }
 .ident{
 	float: right;
-	margin-top: -33px;
 }
 .ident ul li{
 	display: inline;
@@ -120,7 +119,7 @@ section{
 	border:solid 2px;
 	border-color: red;
 	font-size: 40px;
-	margin-top: 57px;
+	margin-top: 80px;
 }
 
 img{
@@ -153,7 +152,7 @@ img{
 	background: red;
 	display: block;
 }
-.ident::before{
+.ident::after{
 	content: "contact";
 }
 .ident ul li{
