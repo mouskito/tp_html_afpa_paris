@@ -1,0 +1,27 @@
+.flexbox{
+	display: flex;
+
+	width: 90%;
+	margin: auto;
+
+	background-color: blue;
+
+}
+
+.flexbox .item1{
+	width: 600px;
+}
+
+.item{
+	flex: auto;
+}
+.item img{
+	width: 100%;
+}
+
+span{
+	display: block;
+	color: white;
+	background-color: gray;
+	text-align: center;
+}
