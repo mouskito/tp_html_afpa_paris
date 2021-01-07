@@ -1,3 +1,27 @@
+header{
+	background: black;
+	color: white;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+}
+nav ul{
+	display: flex;
+	list-style-type: none;
+}
+nav ul li{
+	margin: 10px;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: 15px;
+	border-radius: 5px;
+	color: white;
+}
+nav ul li a:hover{
+	background: green;
+}
 .flexbox{
 	display: inline-flex;
 }
@@ -19,3 +43,4 @@
 	background: gray;
 	color: white;
 }
+
