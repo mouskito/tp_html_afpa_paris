@@ -45,3 +45,21 @@
 	display: inline-flex; /*pour pouvoir changer la hauteur*/
 }
 #serie2{background: skyblue;}
+
+.flexbox{
+	background: red;
+	display: flex;
+	flex: auto; /*quand 1 image plus grande dans la classe les autrs se partages l'espace restant*/
+	/*justify-content: space-between; /*prend le maximum de place en espacant les elements*/
+	/*justify-content: space-around; /*met de l'espace autour*/
+	/*justify-content: flex-end; /*pour coller à droite*/
+	/*flex-direction: row; /*ligne*/ /*row-reverse = ligne en japonais*/
+	/*flex-direction: column; /*aligne en colonne*//*column-reverse aussi*/
+}
+.flexbox div{
+	border: 2px solid;
+}
+.flexbox div:nth-child(2){ /*pseudo-elements n-ieme element uniquement sans id*/
+	border: 10px solid green;
+	width: 100px;
+}

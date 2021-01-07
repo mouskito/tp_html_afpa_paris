@@ -1,0 +1,14 @@
+.container{
+	background: yellow;
+}
+nav{
+	display: flex;
+	justify-content: space-around;
+}
+
+nav a {
+	text-decoration: none;
+	padding: 15px;
+	font-size: 20px;
+	font-weight: bold;
+}
