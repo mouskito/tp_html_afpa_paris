@@ -1,0 +1,21 @@
+.flexbox{
+	display: inline-flex;
+}
+.flexbox div{
+	border: 1px solid black;
+	margin: 10px;
+	width: auto;
+}
+.flexbox img{
+	width: 100%;
+}
+.flexbox div p,h3{
+	padding: 15px;
+}
+.flexbox .button{
+	border-radius: 3px;
+	text-align: center;
+	padding: 10px;
+	background: gray;
+	color: white;
+}
