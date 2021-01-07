@@ -2,12 +2,18 @@
   display: flex;
   justify-content: center;
   clear: both;
+
 }
 
 .flexbox .item{
   box-shadow: 3px 3px 13px -4px rgba(0,0,0,0.75);
   margin: 20px;
   background-color: beige;
+  transition: all .2s ease-in-out;
+}
+
+.flexbox .item:hover{
+  transform: scale(1.1);
 }
 
 .flexbox > .item:nth-child(1){
@@ -58,7 +64,7 @@
   text-decoration: none;
 }
 
-.item1-button a p, .item2-button a p, .item3-button a p{
+.flexbox a p{
   color: white;
   text-align: center;
   padding: 10px;
