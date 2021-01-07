@@ -1,50 +1,6 @@
 body{
 	margin: 0;
 }
-header{
-	color: white;
-	background: black;
-}
-#logo img{
-	float: left;
-	margin-right: 30px;
-	width:200px;
-	height: 95px;
-}
-
-.menu-nav a{
-	text-transform: uppercase;
-    color: #fff;
-    font-family: "futura-pt",sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 12px;
-    text-decoration-line: none;
-}
-
-.menu-nav ul{
-	padding: 10px;
-	list-style-type: none;
-	display: inline-block;
-}
-
-.menu-nav ul li{
-	float: left;
-	padding: 10px 40px;
-	position: relative;
-}
-
-.access{
-	float: right;
-}
-
-.menu-nav ul li:hover {
-	background-color: white;
-}
-.menu-nav ul li:hover a {
-	color: black;
-}
-
 section{
 	display: flex; 
 	margin: 20px;

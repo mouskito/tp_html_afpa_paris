@@ -1,0 +1,18 @@
+header{
+	background-color: black;
+	color: white;
+}
+
+nav, .menu-nav, ul{
+	display: flex;
+}
+
+.menu-nav{
+	justify-content: space-around;
+	width: 100%;
+}
+
+.menu-nav ul li{
+	list-style-type: none;
+	width: 100px;
+}
