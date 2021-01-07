@@ -1,7 +1,8 @@
 .flexbox{
-	display: flex;
-	justify-content: center;
-	width: 70%;
+	display:  flex;
+	width: 80%;
+	margin: auto;
+	background: blue;
 }
 
 .flexbox div{
@@ -25,22 +26,17 @@
     text-align: center;
 }
 
-.corse{
-width: 100%;
-height: 220px;
-}
+
 .corse1{
 	background: white;
-	flex: auto;
+	/*flex: auto;*/
 }
 .corse3{
 width: 100%;
 height: 100px;	
 }
 
-.corse2{
-	width: 400px;
-}
+
 .corse1:hover{
 	cursor: pointer;
 	transform: scale(1.2);
@@ -83,3 +79,11 @@ height: 100px;
 	margin-right: 0px;
 	margin-left: 0px;
 }	
+}
+
+
+
+
+
+
+
