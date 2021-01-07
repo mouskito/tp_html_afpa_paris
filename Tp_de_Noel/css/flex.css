@@ -1,9 +1,7 @@
 .flexbox{
 	display: flex;
-	justify-content: space-around;
-	margin-right: 500px;
-	margin-left: 500px;
-
+	justify-content: center;
+	width: 70%;
 }
 
 .flexbox div{
@@ -32,6 +30,7 @@ width: 100%;
 height: 220px;
 }
 .corse1{
+	background: white;
 	flex: auto;
 }
 .corse3{
@@ -48,7 +47,7 @@ height: 100px;
 	transition-duration: 2s;
 }
 
-@media only screen and (min-device-width: 280px) and (max-device-width: 640px){
+@media only screen and (min-device-width: 260px) and (max-device-width: 640px){
 	.flexbox{
 		flex-direction: column;
 		margin-right: 0;
@@ -75,3 +74,12 @@ height: 100px;
 	transition-duration: 2s;
 }
 }
+
+@media only screen and (min-device-width: 641px) and (max-device-width: 1024px){
+
+.flexbox{
+	display: flex;
+	justify-content: space-around;
+	margin-right: 0px;
+	margin-left: 0px;
+}	
